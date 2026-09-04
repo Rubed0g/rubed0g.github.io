@@ -81,12 +81,14 @@ main {
     border-radius: 5px;
     display: flex;
     flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
     
 }
 
 .center{
     background-color: grey;
-    margin-right: 10px;
+    margin: 10px;
     width: 50%;
     min-height: 100%;
 
@@ -96,8 +98,8 @@ main {
     justify-self: right;
     width: 25%;
     min-height: 100%;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 
