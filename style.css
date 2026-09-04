@@ -85,12 +85,15 @@ main {
 }
 
 .center{
+    background-color: grey;
+    margin-right: 10px;
     width: 50%;
     min-height: 100%;
 
 }
 
-.left{
+.right{
+    justify-self: right;
     width: 25%;
     min-height: 100%;
     align-items: center;
